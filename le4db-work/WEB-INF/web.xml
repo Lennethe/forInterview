@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+  <servlet>
+    <servlet-name>List</servlet-name>
+    <servlet-class>ListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ListForum</servlet-name>
+    <servlet-class>ListForumServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AnimationList</servlet-name>
+    <servlet-class>AnimationListServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Forum</servlet-name>
+    <servlet-class>ForumServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>MyPage</servlet-name>
+    <servlet-class>MyPageServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>SearchForum</servlet-name>
+    <servlet-class>SearchForumServlet</servlet-class>
+  </servlet>
+
+
+  <servlet>
+    <servlet-name>SearchAnimation</servlet-name>
+    <servlet-class>SearchAnimationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>AddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddForum</servlet-name>
+    <servlet-class>AddForumServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddHistory</servlet-name>
+    <servlet-class>AddHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>AddAnimation</servlet-name>
+    <servlet-class>AddAnimationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>CreateAccount</servlet-name>
+    <servlet-class>CreateAccountServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Secure</servlet-name>
+    <servlet-class>SecureServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Item</servlet-name>
+    <servlet-class>ItemServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ItemAnimation</servlet-name>
+    <servlet-class>ItemAnimationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ItemAccount</servlet-name>
+    <servlet-class>ItemAccountServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>ChangeHistory</servlet-name>
+    <servlet-class>ChangeHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateAnimation</servlet-name>
+    <servlet-class>UpdateAnimationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateHistory</servlet-name>
+    <servlet-class>UpdateHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>UpdateAccount</servlet-name>
+    <servlet-class>UpdateAccountServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DeleteHistory</servlet-name>
+    <servlet-class>DeleteHistoryServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DeleteAnimation</servlet-name>
+    <servlet-class>DeleteAnimationServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>DeleteAccount</servlet-name>
+    <servlet-class>DeleteAccountServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>List</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ListForum</servlet-name>
+    <url-pattern>/list_forum</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AnimationList</servlet-name>
+    <url-pattern>/animation_list</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Forum</servlet-name>
+    <url-pattern>/forum</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>MyPage</servlet-name>
+    <url-pattern>/my_page</url-pattern>
+  </servlet-mapping>
+
+
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SearchAnimation</servlet-name>
+    <url-pattern>/search_animation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>SearchForum</servlet-name>
+    <url-pattern>/search_forum</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddForum</servlet-name>
+    <url-pattern>/add_forum</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddHistory</servlet-name>
+    <url-pattern>/add_history</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>AddAnimation</servlet-name>
+    <url-pattern>/add_animation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>CreateAccount</servlet-name>
+    <url-pattern>/createAccount</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Secure</servlet-name>
+    <url-pattern>/secure</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet-mapping>
+    <servlet-name>Item</servlet-name>
+    <url-pattern>/item</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ItemAnimation</servlet-name>
+    <url-pattern>/item_animation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ItemAccount</servlet-name>
+    <url-pattern>/item_account</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>ChangeHistory</servlet-name>
+    <url-pattern>/change_history</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>UpdateHistory</servlet-name>
+    <url-pattern>/update_history</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>UpdateAnimation</servlet-name>
+    <url-pattern>/update_animation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>UpdateAccount</servlet-name>
+    <url-pattern>/update_account</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DeleteAnimation</servlet-name>
+    <url-pattern>/delete_animation</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DeleteAccount</servlet-name>
+    <url-pattern>/delete_account</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>DeleteHistory</servlet-name>
+    <url-pattern>/delete_history</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
